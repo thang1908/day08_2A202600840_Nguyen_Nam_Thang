@@ -170,9 +170,52 @@ run_dashboard()
 
 ## Kiến Trúc Hệ Thống
 
+```mermaid
+flowchart TD
+    A[Legal PDFs<br/>data/landing/legal] --> C[Task 3<br/>Convert to Markdown]
+    B[News JSON<br/>data/landing/news] --> C
+
+    C --> D[Standardized Markdown<br/>data/standardized]
+    D --> E[Task 4<br/>Chunking]
+    E --> F[OpenAI Embeddings]
+    F --> G[Weaviate Vector Store]
+
+    D --> H[BM25 Corpus]
+    D --> I[PageIndex / Local Vectorless Fallback]
+
+    Q[User Question] --> J[Task 9 Retrieval Pipeline]
+    G --> J
+    H --> J
+    I --> J
+
+    J --> K[RRF Merge]
+    K --> L{Use Reranking?}
+    L -->|Yes| M[Task 7<br/>Qwen / Keyword Reranker]
+    L -->|No| N[Top-K Hybrid Results]
+    M --> O[Final Context Chunks]
+    N --> O
+
+    O --> P[Task 10<br/>Generation with Citation]
+    P --> R[Answer + Sources]
+
+    R --> S[FastAPI Backend]
+    S --> T[React Web Demo]
+
+    U[Golden Dataset<br/>group_project/evaluation/golden_dataset.json] --> V[Task 11 / RAGAS Eval]
+    R --> V
+    V --> W[Evaluation Report<br/>group_project/evaluation/results.md]
+    W --> T
 ```
-[Vẽ diagram kiến trúc ở đây]
-```
+
+### Luồng chính
+
+1. **Ingestion**: PDF luật và JSON bài báo được lưu ở `data/landing/`.
+2. **Standardization**: Task 3 chuyển dữ liệu thô sang Markdown trong `data/standardized/`.
+3. **Indexing**: Task 4 chunk tài liệu, tạo embedding và index vào Weaviate.
+4. **Retrieval**: Task 9 kết hợp semantic search, BM25, RRF, reranking và PageIndex/local fallback.
+5. **Generation**: Task 10 đưa context vào LLM để trả lời có citation.
+6. **Demo UI**: FastAPI cung cấp API, React hiển thị chat, source chunks, cấu hình rerank/model và kết quả RAGAS.
+7. **Evaluation**: Task 11/RAGAS chạy trên `golden_dataset.json` và xuất báo cáo `results.md`.
 
 ---
 
