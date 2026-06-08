@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Theo Luật Phòng, chống ma túy 2021, chất ma túy được hiểu là gì?",
+    "expected_answer": "Chất ma túy là chất gây nghiện hoặc chất hướng thần được quy định trong danh mục chất ma túy do Chính phủ ban hành.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - Điều 2 về giải thích từ ngữ"
+  },
+  {
+    "question": "Luật Phòng, chống ma túy 2021 quy định những hành vi nào bị nghiêm cấm liên quan đến ma túy?",
+    "expected_answer": "Luật nghiêm cấm các hành vi như trồng cây có chứa chất ma túy; sản xuất, tàng trữ, vận chuyển, mua bán trái phép chất ma túy; tổ chức hoặc sử dụng trái phép chất ma túy; lôi kéo, cưỡng bức người khác sử dụng trái phép chất ma túy; và chống lại hoặc cản trở việc xét nghiệm, cai nghiện, quản lý sau cai nghiện.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - Điều 5 về các hành vi bị nghiêm cấm"
+  },
+  {
+    "question": "Các hình thức cai nghiện ma túy theo Luật Phòng, chống ma túy 2021 gồm những gì?",
+    "expected_answer": "Các hình thức cai nghiện gồm cai nghiện tự nguyện và cai nghiện bắt buộc; việc cai nghiện có thể thực hiện tại gia đình, cộng đồng hoặc cơ sở cai nghiện theo điều kiện luật định.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - Chương V về cai nghiện ma túy"
+  },
+  {
+    "question": "Gia đình có trách nhiệm gì trong phòng, chống ma túy theo Luật Phòng, chống ma túy 2021?",
+    "expected_answer": "Gia đình có trách nhiệm giáo dục thành viên về tác hại của ma túy, quản lý và ngăn chặn thành viên vi phạm pháp luật về ma túy, đồng thời phối hợp với cơ quan, tổ chức trong phòng ngừa, phát hiện và hỗ trợ cai nghiện.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - quy định về trách nhiệm của gia đình"
+  },
+  {
+    "question": "Việc quản lý người sử dụng trái phép chất ma túy nhằm mục đích gì?",
+    "expected_answer": "Việc quản lý nhằm phòng ngừa, ngăn chặn người đó tiếp tục sử dụng trái phép chất ma túy, đồng thời hạn chế hành vi gây mất trật tự, an toàn xã hội và hỗ trợ xác định tình trạng nghiện khi cần thiết.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - quy định về quản lý người sử dụng trái phép chất ma túy"
+  },
+  {
+    "question": "Những trường hợp nào có thể bị xét nghiệm chất ma túy trong cơ thể?",
+    "expected_answer": "Người có căn cứ cho rằng đã sử dụng trái phép chất ma túy, người đang bị quản lý vì sử dụng trái phép chất ma túy, người đang cai nghiện hoặc quản lý sau cai nghiện, và một số trường hợp cần kiểm tra để bảo đảm trật tự, an toàn xã hội có thể bị xét nghiệm theo quy định.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - quy định về xét nghiệm chất ma túy trong cơ thể"
+  },
+  {
+    "question": "Người nghiện ma túy từ đủ 18 tuổi có thể bị áp dụng biện pháp cai nghiện bắt buộc khi nào?",
+    "expected_answer": "Người nghiện ma túy từ đủ 18 tuổi có thể bị áp dụng cai nghiện bắt buộc khi không đăng ký, không thực hiện hoặc tự ý chấm dứt cai nghiện tự nguyện, hoặc trong các trường hợp luật quy định phải đưa vào cơ sở cai nghiện bắt buộc.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - quy định về cai nghiện bắt buộc"
+  },
+  {
+    "question": "Luật Phòng, chống ma túy 2021 yêu cầu quản lý sau cai nghiện ma túy nhằm mục tiêu gì?",
+    "expected_answer": "Quản lý sau cai nghiện nhằm hỗ trợ người đã cai nghiện ổn định cuộc sống, phòng ngừa tái nghiện, tiếp tục theo dõi và giúp họ hòa nhập cộng đồng.",
+    "expected_context": "data/standardized/legal/Luat_Phong_Chong_Ma_Tuy_2021.md - quy định về quản lý sau cai nghiện"
+  },
+  {
+    "question": "Tài liệu về phòng chống ma túy tại Nghi Dương, Hải Phòng năm 2025 tập trung vào nội dung gì?",
+    "expected_answer": "Tài liệu tập trung vào công tác tuyên truyền, phòng ngừa, phát hiện và phối hợp xử lý các hành vi liên quan đến ma túy tại địa bàn Nghi Dương, Hải Phòng trong năm 2025.",
+    "expected_context": "data/standardized/legal/Luat_phong_chong_ma_tuy_Nghi_Duong_Hai_Phong_2025.md"
+  },
+  {
+    "question": "Theo tài liệu Nghi Dương, Hải Phòng 2025, cộng đồng địa phương cần phối hợp như thế nào trong phòng chống ma túy?",
+    "expected_answer": "Cộng đồng cần phối hợp với chính quyền, công an và các tổ chức đoàn thể để tuyên truyền, phát hiện dấu hiệu nghi vấn, cung cấp thông tin và hỗ trợ quản lý, giáo dục người có nguy cơ liên quan đến ma túy.",
+    "expected_context": "data/standardized/legal/Luat_phong_chong_ma_tuy_Nghi_Duong_Hai_Phong_2025.md"
+  },
+  {
+    "question": "Bài Thanh Niên ngày 20/05/2026 cho biết Công an TP.HCM đã khởi tố, tạm giam bao nhiêu bị can trong đường dây ma túy?",
+    "expected_answer": "Công an TP.HCM đã khởi tố, tạm giam 71 bị can trong một đường dây ma túy lớn trên địa bàn thành phố.",
+    "expected_context": "data/standardized/news/ca-si-long-nhat-bi-bat-showbiz-viet-lien-tiep-chan-dong-vi-ma-tuy.md"
+  },
+  {
+    "question": "Trong vụ án ma túy tại TP.HCM được Thanh Niên nêu, những nghệ sĩ nào nằm trong số các bị can?",
+    "expected_answer": "Trong số các bị can có ca sĩ Long Nhật và ca sĩ Sơn Ngọc Minh, cựu thành viên nhóm V.Music.",
+    "expected_context": "data/standardized/news/ca-si-long-nhat-bi-bat-showbiz-viet-lien-tiep-chan-dong-vi-ma-tuy.md"
+  },
+  {
+    "question": "Các bị can trong đường dây ma túy tại TP.HCM bị điều tra về những hành vi nào?",
+    "expected_answer": "Các bị can bị điều tra về các hành vi mua bán trái phép chất ma túy, tàng trữ trái phép chất ma túy và tổ chức sử dụng trái phép chất ma túy.",
+    "expected_context": "data/standardized/news/ca-si-long-nhat-bi-bat-showbiz-viet-lien-tiep-chan-dong-vi-ma-tuy.md"
+  },
+  {
+    "question": "Trước vụ Long Nhật và Sơn Ngọc Minh, ca sĩ Miu Lê bị Công an TP.Hải Phòng khởi tố để điều tra hành vi gì?",
+    "expected_answer": "Ca sĩ Miu Lê bị khởi tố, tạm giam để điều tra về hành vi tổ chức sử dụng trái phép chất ma túy.",
+    "expected_context": "data/standardized/news/ca-si-long-nhat-bi-bat-showbiz-viet-lien-tiep-chan-dong-vi-ma-tuy.md; data/standardized/news/chua-day-1-thang-3-nghe-si-viet-bi-khoi-to-vi-lien-quan-ma-tuy-gay-chan-dong.md"
+  },
+  {
+    "question": "Báo Chính phủ đưa tin Long Nhật và Sơn Ngọc Minh bị khởi tố, bắt tạm giam vì hành vi gì?",
+    "expected_answer": "Long Nhật và Sơn Ngọc Minh bị khởi tố, bắt tạm giam để điều tra về hành vi tổ chức sử dụng trái phép chất ma túy.",
+    "expected_context": "data/standardized/news/khoi-to-bat-tam-giam-ca-si-long-nhat-son-ngoc-minh-vi-to-chuc-su-dung-ma-tuy.md"
+  },
+  {
+    "question": "Bài VOV về 'chưa đầy 1 tháng, 3 nghệ sĩ Việt bị khởi tố' nhấn mạnh điều gì?",
+    "expected_answer": "Bài viết nhấn mạnh trong thời gian ngắn đã có nhiều nghệ sĩ Việt bị khởi tố vì liên quan đến ma túy, tạo chấn động dư luận và đặt ra lo ngại về hình ảnh, trách nhiệm của người nổi tiếng.",
+    "expected_context": "data/standardized/news/chua-day-1-thang-3-nghe-si-viet-bi-khoi-to-vi-lien-quan-ma-tuy-gay-chan-dong.md"
+  },
+  {
+    "question": "Theo bài Thanh Niên, cuối năm 2024 ca sĩ Chi Dân và người mẫu Andrea Aybar bị điều tra về hành vi gì?",
+    "expected_answer": "Chi Dân và Andrea Aybar bị khởi tố, bắt tạm giam để điều tra về hành vi tổ chức sử dụng trái phép chất ma túy; Andrea Aybar còn bị điều tra thêm về hành vi tàng trữ trái phép chất ma túy.",
+    "expected_context": "data/standardized/news/ca-si-long-nhat-bi-bat-showbiz-viet-lien-tiep-chan-dong-vi-ma-tuy.md"
+  },
+  {
+    "question": "Bài VietnamNet mô tả ma túy ảnh hưởng đến não bộ người trẻ như thế nào?",
+    "expected_answer": "Ma túy có thể tác động mạnh lên hệ thần kinh trung ương, làm rối loạn cơ chế tưởng thưởng của não, gây lệ thuộc, suy giảm khả năng kiểm soát hành vi, ảnh hưởng trí nhớ, cảm xúc và sức khỏe tâm thần của người trẻ.",
+    "expected_context": "data/standardized/news/loat-ca-si-dinh-chat-cam-ma-tuy-pha-huy-nao-bo-nguoi-tre-ra-sao.md"
+  },
+  {
+    "question": "Theo bài VietnamNet, vì sao người trẻ dễ chịu tác động nghiêm trọng từ ma túy?",
+    "expected_answer": "Người trẻ dễ chịu tác động nghiêm trọng vì não bộ và khả năng kiểm soát hành vi vẫn đang phát triển; việc sử dụng ma túy có thể làm tăng nguy cơ lệ thuộc, rối loạn cảm xúc, ảo giác, hoang tưởng và suy giảm học tập, lao động.",
+    "expected_context": "data/standardized/news/loat-ca-si-dinh-chat-cam-ma-tuy-pha-huy-nao-bo-nguoi-tre-ra-sao.md"
+  },
+  {
+    "question": "Bài Dân Việt cho rằng các vụ nghệ sĩ vướng ma túy gây tổn thương điều gì ngoài vi phạm pháp luật?",
+    "expected_answer": "Bài viết cho rằng các vụ việc không chỉ là sa ngã cá nhân hay vi phạm pháp luật, mà còn làm tổn thương niềm tin công chúng, ảnh hưởng xấu đến hình ảnh người nổi tiếng và có nguy cơ tạo tác động tiêu cực tới giới trẻ.",
+    "expected_context": "data/standardized/news/nhuc-nhoi-loat-nghe-si-vuong-lao-ly-vi-ma-tuy-khong-chi-la-sa-nga-ma-con-la-su-ton-thuong-doi-voi-niem-tin-cong-chung.md"
+  }
+]

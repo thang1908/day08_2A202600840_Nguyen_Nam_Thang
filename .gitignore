@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Frontend dependencies/build artifacts
+node_modules/
+dist/
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# RAG pipeline generated data
+data/**
+!data/
+!data/**/
+!data/**/.gitkeep
+data/pageindex_doc_ids.json
+data/index/
+data/weaviate/
+
+# Evaluation outputs
+group_project/evaluation/results.md
+group_project/evaluation/*.csv
+group_project/evaluation/*.parquet
+group_project/evaluation/*.jsonl
+group_project/evaluation/.ragas/
+group_project/evaluation/.deepeval-cache/
+
+# Temporary downloads
+*.part
+
+# Logs and local runtime artifacts
+*.log
+logs/
+tmp/
+temp/
