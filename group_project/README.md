@@ -223,10 +223,12 @@ flowchart TD
 
 | Thành viên | MSSV | Nhiệm vụ | Trạng thái |
 |-----------|------|----------|------------|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+| Trần Trúc Quỳnh | 2A202600934 | | |
+| Nguyễn Tiến Huân | 2A202600855 | | |
+| Nguyễn Nam Thắng | 2A202600840 | | |
+| Phạm Huy Cảnh | 2A202600663 | | |
+| Nguyễn Xuân Tới | 2A202600810 | | |
+| Phạm Thị Bích Ngọc | 2A202600575 | | |
 
 ---
 
